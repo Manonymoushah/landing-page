@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 200px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  opacity: 80%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 450px;
+  height: fit-content;
+  flex-shrink: 0;
+}
+
+.hero-right {
+  width: 450px;
+  height: 225px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary {
+  font-size: #e5e7eb;
+  font-size: 18px;
+  opacity: 80%;
+  padding-bottom: 16px;
+}
+
+.button {
+  width: fit-content;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border-radius: 6px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 200px;
+}
+.information-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.card-yes {
+  display: flex;
+  flex-direction: column;
+}
+.card-img {
+  border: #3882f6 5px solid;
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+}
+.card-text {
+  width: 150px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote-main {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 790px;
+}
+
+.quote-tag {
+  font-size: 24px;
+  font-weight: bold;
+  width: 760px;
+  text-align: end;
+}
