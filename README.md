@@ -11,8 +11,8 @@ Recreation of a landing page template from a given design. Using vanilla html an
 
 ### Future Improvements : 
 - Improving accessibility
+- Add media queries
 - personalisation 
-
 
 ### design template used :
 ![landing page template](./assets/01.png)
