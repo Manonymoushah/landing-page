@@ -83,6 +83,7 @@ a {
 
 .button {
   width: fit-content;
+  font-weight: bold;
   background-color: #3882f6;
   padding: 8px 32px;
   border-radius: 6px;
@@ -147,4 +148,28 @@ a {
   font-weight: bold;
   width: 760px;
   text-align: end;
+}
+
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  padding: 50px 100px;
+  margin: 100px 200px ;
+  border-radius: 12px;
+}
+
+.action-head {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.action-caption {
+  font-size: 18px;
+  opacity: 80%;
+  color: #e5e7eb;
 }
