@@ -18,4 +18,4 @@ Recreation of a landing page template from a given design. Using vanilla html an
 ![landing page template](./assets/01.png)
 
 # acknowledgments 
-[the odin project](theodinproject.com)
+[The Odin Project](https://www.theodinproject.com)
